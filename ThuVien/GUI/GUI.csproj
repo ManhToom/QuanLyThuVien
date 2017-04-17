@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D913912-63D5-4382-AFA6-56331EE3399C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentForm\BoxFrom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComponentForm\BoxFrom.Designer.cs">
+      <DependentUpon>BoxFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComponentForm\DomainUse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentForm\Flat_Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComponentForm\Flat_Button.Designer.cs">
+      <DependentUpon>Flat_Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComponentForm\Panel_Simple.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentForm\ResizeAndMove.cs" />
+    <Compile Include="ComponentForm\Thin_Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComponentForm\Thin_Button.Designer.cs">
+      <DependentUpon>Thin_Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC\Tab\ChiTietMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\ChiTietMuon.Designer.cs">
+      <DependentUpon>ChiTietMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\ChonTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\ChonTG.Designer.cs">
+      <DependentUpon>ChonTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\ChonTL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\ChonTL.Designer.cs">
+      <DependentUpon>ChonTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\CuonSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\CuonSach.Designer.cs">
+      <DependentUpon>CuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\DangMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\DangMuon.Designer.cs">
+      <DependentUpon>DangMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\LapPhieuMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\LapPhieuMuon.Designer.cs">
+      <DependentUpon>LapPhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\MuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\MuonSach.Designer.cs">
+      <DependentUpon>MuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\MuonTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\MuonTra.Designer.cs">
+      <DependentUpon>MuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\QuaHan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\QuaHan.Designer.cs">
+      <DependentUpon>QuaHan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\SachTheoTuaSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\SachTheoTuaSach.Designer.cs">
+      <DependentUpon>SachTheoTuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\ThemSachMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\ThemSachMuon.Designer.cs">
+      <DependentUpon>ThemSachMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\DocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\DocGia.Designer.cs">
+      <DependentUpon>DocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Tab\TuaSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Tab\TuaSach.Designer.cs">
+      <DependentUpon>TuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCMuonTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCMuonTra.Designer.cs">
+      <DependentUpon>UCMuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCNghiepVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCNghiepVu.Designer.cs">
+      <DependentUpon>UCNghiepVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCSach.Designer.cs">
+      <DependentUpon>UCSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCThongKe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCThongKe.Designer.cs">
+      <DependentUpon>UCThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTimKiem.Designer.cs">
+      <DependentUpon>UCTimKiem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ComponentForm\BoxFrom.resx">
+      <DependentUpon>BoxFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComponentForm\Flat_Button.resx">
+      <DependentUpon>Flat_Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComponentForm\Thin_Button.resx">
+      <DependentUpon>Thin_Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC\Tab\ChiTietMuon.resx">
+      <DependentUpon>ChiTietMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\ChonTG.resx">
+      <DependentUpon>ChonTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\ChonTL.resx">
+      <DependentUpon>ChonTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\CuonSach.resx">
+      <DependentUpon>CuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\LapPhieuMuon.resx">
+      <DependentUpon>LapPhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\MuonSach.resx">
+      <DependentUpon>MuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\MuonTra.resx">
+      <DependentUpon>MuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\ThemSachMuon.resx">
+      <DependentUpon>ThemSachMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\DocGia.resx">
+      <DependentUpon>DocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Tab\TuaSach.resx">
+      <DependentUpon>TuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCMuonTra.resx">
+      <DependentUpon>UCMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCNghiepVu.resx">
+      <DependentUpon>UCNghiepVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCSach.resx">
+      <DependentUpon>UCSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCThongKe.resx">
+      <DependentUpon>UCThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTimKiem.resx">
+      <DependentUpon>UCTimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{39ce8744-56bc-4ebf-86e1-3221e5d31ba2}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonObject\CommonObject.csproj">
+      <Project>{968a9eb0-c81b-4e01-9046-7f329b975370}</Project>
+      <Name>CommonObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico-exit-mac-hor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico-exit-mac-nor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-maxsize-mac-hor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-maxsize-mac-nor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mini-mac-hor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mini-mac-nor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico-exit-mac-clk-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-maxsize-mac-clk-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mini-mac-clk-1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

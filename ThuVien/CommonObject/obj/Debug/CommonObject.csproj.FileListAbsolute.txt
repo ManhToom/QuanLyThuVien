@@ -1,0 +1,10 @@
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\bin\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\bin\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\bin\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\bin\Debug\CommonObject.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.pdb

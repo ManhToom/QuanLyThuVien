@@ -1,0 +1,121 @@
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\bin\Debug\GUI.exe.config
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\bin\Debug\GUI.exe
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\bin\Debug\GUI.pdb
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.ComponentForm.Flat_Button.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.FormMain.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.exe
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.pdb
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.ComponentForm.BoxFrom.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.ComponentForm.Thin_Button.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.UCSach.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.TuaSach.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.TacGia.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.TheLoai.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.NXB.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.UCNghiepVu.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.ThuThu.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.DocGia.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonSach.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.UCMuonTra.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.UC.Tab.TraSach.resources
+E:\Projects\VisualStudioProjects\Projects\DesignThuVien\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\GUI.exe.config
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.exe
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\GUI.exe
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\GUI.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\BUS.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\DAL.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\BUS.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\bin\Debug\DAL.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.BoxFrom.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Flat_Button.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Thin_Button.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.FormMain.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTG.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTL.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ThuThu.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.DocGia.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.TheLoai.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.NXB.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.TacGia.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.TuaSach.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCMuonTra.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCNghiepVu.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCSach.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.NCC.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCNhap.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.SCN.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.PhieuNhap.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonTra.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChiTietMuon.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.LapPhieuMuon.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonSach.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ThemSachMuon.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCThongKe.resources
+E:\Projects\VisualStudioProjects\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.CuonSach.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\GUI.exe.config
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.exe
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\GUI.exe
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\GUI.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\BUS.dll
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\DAL.dll
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\BUS.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\CommonObject.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\bin\Debug\DAL.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.ComponentForm.BoxFrom.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Flat_Button.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Thin_Button.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.FormMain.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChiTietMuon.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTG.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTL.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.CuonSach.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.LapPhieuMuon.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonSach.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonTra.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ThemSachMuon.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.DocGia.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.Tab.TuaSach.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.UCMuonTra.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.UCNghiepVu.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.UCSach.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.UCThongKe.resources
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\MANHTOM\Downloads\ThuVien\GUI\obj\Debug\GUI.UC.UCTimKiem.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\bin\Debug\GUI.exe.config
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.exe
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.pdb
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.BoxFrom.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Flat_Button.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.ComponentForm.Thin_Button.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.FormMain.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChiTietMuon.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTG.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ChonTL.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.CuonSach.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.LapPhieuMuon.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonSach.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.MuonTra.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.ThemSachMuon.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.DocGia.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.Tab.TuaSach.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCMuonTra.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCNghiepVu.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCSach.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCThongKe.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.UC.UCTimKiem.resources
+C:\Users\MANHTOM\Documents\Visual Studio 2015\Projects\ThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache

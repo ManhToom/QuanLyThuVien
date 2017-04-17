@@ -1,0 +1,14 @@
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\bin\Debug\DAL.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\bin\Debug\DAL.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\bin\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\bin\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\obj\Debug\DAL.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\DAL\obj\Debug\DAL.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\bin\Debug\DAL.dll
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\bin\Debug\DAL.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\bin\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\bin\Debug\CommonObject.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\obj\Debug\DAL.dll
+C:\Users\MANHTOM\Downloads\ThuVien\DAL\obj\Debug\DAL.pdb
