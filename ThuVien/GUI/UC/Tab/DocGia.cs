@@ -94,7 +94,10 @@ namespace GUI.UC.Tab
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-           
+           enableInput();
+            txtmadg.Enabled = false;
+            btnThem.Enabled = false;
+            btnXoa.Text = "Hủy";
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -114,8 +117,24 @@ namespace GUI.UC.Tab
                 }
                 else if (btnSua.Active)
                 {
-
+					QLThuVien.ValueObject.DocGia a = new QLThuVien.ValueObject.DocGia();
+                    a.MaDG = txtmadg.Text.Trim();
+                    a.TenDG = txtten.Text.Trim();
+                    a.NgaySinh = date1.Value;
+                    a.DiaChi = txtdiachi.Text.Trim();
+                    a.SDT1 = txtsdt.Text.Trim();
+                    a.LoaiDG = cbxloai.Text.Trim();
+                    if (rdbnam.Checked) a.GioiTinh = "Nam";
+                    else if (rdbnu.Checked) a.GioiTinh = "Nữ";
+                    if (a.MaDG == null || a.MaDG == "") throw new Exception();
+                    if (BUS.sua_DG(a) == 1)
+                    {
+                        loadDataToDgv();
+                        MessageBox.Show("Sửa Thành Công");
+                    }
+                    else throw new Exception();
                 }
+                
             }
             catch
             {
