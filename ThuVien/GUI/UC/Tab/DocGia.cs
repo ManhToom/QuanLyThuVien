@@ -105,7 +105,31 @@ namespace GUI.UC.Tab
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            
+            if (btnThem.Active || btnSua.Active)
+            {
+                clearInput();
+                disableInput();
+                btnXoa.Text = "Xóa";
+                btnXoa.Active = true;
+                btnThem.Enabled = true;
+                btnSua.Enabled = false;
+            }
+            else
+            {
+                btnXoa.Text = "Xóa";
+                btnXoa.Active = true;
+                btnThem.Enabled = true;
+                btnSua.Enabled = false;
+                if (BUS.xoa_DG(txtmadg.Text) != 1)
+                    MessageBox.Show("Không xóa được");
+                else
+                {
+                    loadDataToDgv();
+                    MessageBox.Show("Xóa Thành Công");
+                }
+                clearInput();
+                disableInput();
+		}
             
         }
 
