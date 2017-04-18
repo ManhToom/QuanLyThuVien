@@ -831,12 +831,12 @@ namespace QLThuVien.DataAccessLayer
             return DataProvider.GetData("tkmuontrongngay" + "'" + a + "'");
         }
 
-        public static string xuat_SoPMTnew()
-        {
-            string soPMT = null;
-            soPMT = (string)DataProvider.GetData("get_NewSoPMT").Rows[0].ItemArray[0];
-            return soPMT;
-        }
+        //public static string xuat_SoPMTnew()
+        //{
+        //    string soPMT = null;
+        //    soPMT = (string)DataProvider.GetData("get_NewSoPMT").Rows[0].ItemArray[0];
+        //    return soPMT;
+        //}
 
         public static int themtdcs(int a, string b, string c)
         {

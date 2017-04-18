@@ -40,20 +40,6 @@ namespace GUI.UC
                     ctrl.Dispose();
             }
         }
-		private void loadDG()
-        {
-            DataTable dt = BUS.xuat_DGcoMa(txtMDG1.Text.Trim());
-            if (dt.Rows.Count == 1)
-            {
-                txtTenDG.Text = Convert.ToString(dt.Rows[0].ItemArray[1]);
-                if (Convert.ToString(dt.Rows[0].ItemArray[2]) == "Nam") rdbNam.Checked = true;
-                else rdbNu.Checked = true;
-                txtNgaySinh.Text = Convert.ToDateTime(dt.Rows[0].ItemArray[3]).ToShortDateString();
-                txtSDT.Text = Convert.ToString(dt.Rows[0].ItemArray[5]);
-                txtLoai.Text = Convert.ToString(dt.Rows[0].ItemArray[6]);
-            }
-        }
-
-       
+		
     }
 }

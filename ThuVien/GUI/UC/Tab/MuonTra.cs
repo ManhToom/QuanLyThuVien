@@ -322,7 +322,7 @@ namespace GUI.UC.Tab
 
         private void tlmHong_Click(object sender, EventArgs e)
         {
-            if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "H?ng") == 1)
+            if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "Hỏng") == 1)
                 MessageBox.Show("S?a thành công");
             else
                 MessageBox.Show("Không s?a du?c");
@@ -330,7 +330,7 @@ namespace GUI.UC.Tab
 
         private void tlmMat_Click(object sender, EventArgs e)
         {
-            if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "M?t") == 1)
+            if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "Mất") == 1)
                 MessageBox.Show("S?a thành công");
             else
                 MessageBox.Show("Không s?a du?c");
@@ -338,7 +338,7 @@ namespace GUI.UC.Tab
 
         private void btnMuon_Click(object sender, EventArgs e)
         {
-            if (txtMDG1.Text.Trim() != "" && txtLoai.Text == "Mu?n/Đ?c")
+            if (txtMDG1.Text.Trim() != "" )
             {
                 LapPhieuMuon.maDG = txtMDG1.Text;
                 new MuonSach().ShowDialog();
