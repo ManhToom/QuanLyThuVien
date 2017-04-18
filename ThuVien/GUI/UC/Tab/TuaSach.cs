@@ -183,7 +183,11 @@ namespace GUI.UC.Tab
         //Them
         private void btnThem_Click(object sender, EventArgs e)
         {
-            
+            clearInput();
+            enableInput();
+            addItemToCbbNXB();
+            btnSua.Enabled = false;
+            btnXoa.Text = "Hủy";
         }
 
         //Sua
@@ -228,7 +232,43 @@ namespace GUI.UC.Tab
 
                 if (btnThem.Active)
                 {
+					ts.Gia1 = int.Parse(txtGia.Text);
+                    //them TS
+                    if (ts.MaNXB == null || ts.MaTS == "") throw new Exception();
 
+                    if (BUS.them_TS(ts) > 0)
+                    {
+                        updateDataToDgv();
+                    }
+                    else throw new Exception();
+
+                    //them TL_TS
+                    if (ChonTL.maTL != null)
+                    {
+                        string[] strTL = ChonTL.maTL.Split(';');
+                        QLThuVien.ValueObject.TS_TL tstl = new QLThuVien.ValueObject.TS_TL();
+                        tstl.MaTS = ts.MaTS;
+                        foreach (string str in strTL)
+                        {
+                            tstl.MaTL = str;
+                            BUS.them_TSTL(tstl);
+                        }
+                    }
+
+                    //them Viet
+                    if (ChonTG.maTG != null)
+                    {
+                        string[] strTG = ChonTG.maTG.Split(';');
+                        QLThuVien.ValueObject.Viet viet = new QLThuVien.ValueObject.Viet();
+                        viet.MaTS = ts.MaTS;
+                        foreach (string str in strTG)
+                        {
+                            viet.MaTG = str;
+                            BUS.them_V(viet);
+                        }
+                    }
+
+                    MessageBox.Show("Thêm thành công");
                 }
                 else if (btnSua.Active)
                 {
