@@ -50,27 +50,28 @@ namespace GUI.UC.Tab
             {
                 txtMCS.Clear();
                 txtTienCoc.Clear();
-                txtTenSach.Clear();
+              
             }
         }
 
         private void txtMCS_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                e.SuppressKeyPress = true;
-                txtTenSach.Text = QLThuVien.BUSLayer.BUS.xuat_TenSach(txtMCS.Text);
-                if (txtTenSach.Text.Trim() == "")
-                    labErr.Text = "Input sai";
-                else if (!QLThuVien.BUSLayer.BUS.kiemTra_CS(txtMCS.Text.Trim()))
-                    labErr.Text = "Sách đã được mượn hoặc bị hỏng mất";
-                else
-                {
-                    labErr.Text = "";
-                    txtTienCoc.Enabled = true;
-                }
-                txtTienCoc.Focus();
-            }
+            //if (e.KeyCode == Keys.Enter)
+            //{
+            //    e.SuppressKeyPress = true;
+            //    txtTenSach.Text = QLThuVien.BUSLayer.BUS.xuat_TenSach(txtMCS.Text);
+            //    if (txtTenSach.Text.Trim() == "")
+            //        labErr.Text = "Input sai";
+            //    else if (!QLThuVien.BUSLayer.BUS.kiemTra_CS(txtMCS.Text.Trim()))
+            //        labErr.Text = "Sách đã được mượn hoặc bị hỏng mất";
+            //    else
+            //    {
+            //        labErr.Text = "";
+            //        txtTienCoc.Enabled = true;
+            //    }
+            //    txtTienCoc.Focus();
+            //}
+            txtTienCoc.Enabled = true;
         }
 
         private void btnFinish_Click(object sender, EventArgs e)
@@ -95,10 +96,7 @@ namespace GUI.UC.Tab
 
         private void txtMCS_TextChanged(object sender, EventArgs e)
         {
-            txtTienCoc.Clear();
-            txtTienCoc.Enabled = false;
-            txtTenSach.Clear();
-            labErr.Text = "";
+           
         }
 
         private void txtTienCoc_TextChanged(object sender, EventArgs e)
