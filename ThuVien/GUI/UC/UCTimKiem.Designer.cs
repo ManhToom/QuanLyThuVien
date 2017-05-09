@@ -35,9 +35,9 @@
             this.comtl = new System.Windows.Forms.ComboBox();
             this.txttesach = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.flat_Button1 = new GUI.ComponentForm.Flat_Button();
             this.comtg = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.flat_Button1 = new GUI.ComponentForm.Flat_Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,7 +89,7 @@
             // 
             this.comtl.FormattingEnabled = true;
             this.comtl.Location = new System.Drawing.Point(157, 169);
-            this.comtl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comtl.Margin = new System.Windows.Forms.Padding(4);
             this.comtl.Name = "comtl";
             this.comtl.Size = new System.Drawing.Size(205, 24);
             this.comtl.TabIndex = 7;
@@ -97,7 +97,7 @@
             // txttesach
             // 
             this.txttesach.Location = new System.Drawing.Point(536, 172);
-            this.txttesach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttesach.Margin = new System.Windows.Forms.Padding(4);
             this.txttesach.Name = "txttesach";
             this.txttesach.Size = new System.Drawing.Size(188, 22);
             this.txttesach.TabIndex = 9;
@@ -111,46 +111,10 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(0, 315);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1092, 270);
             this.dataGridView1.TabIndex = 10;
-            // 
-            // flat_Button1
-            // 
-            this.flat_Button1.Active = false;
-            this.flat_Button1.BackColor = System.Drawing.Color.Transparent;
-            this.flat_Button1.BackgroundColorClick = System.Drawing.Color.Yellow;
-            this.flat_Button1.BackgroundColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.flat_Button1.BackgroundColorNormal = System.Drawing.Color.Transparent;
-            this.flat_Button1.IconAlignment = 3;
-            this.flat_Button1.IconClick = null;
-            this.flat_Button1.IconHover = null;
-            this.flat_Button1.IconNormal = null;
-            this.flat_Button1.IconPositions = GUI.ComponentForm.Flat_Button.IconPosition.OnlyText;
-            this.flat_Button1.IconSize = new System.Drawing.Size(0, 0);
-            this.flat_Button1.LineColorClick = System.Drawing.Color.Empty;
-            this.flat_Button1.LineColorHover = System.Drawing.Color.Empty;
-            this.flat_Button1.LineColorNormal = System.Drawing.Color.Green;
-            this.flat_Button1.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
-            this.flat_Button1.LineSize = 0;
-            this.flat_Button1.Location = new System.Drawing.Point(992, 274);
-            this.flat_Button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.flat_Button1.MinimumSize = new System.Drawing.Size(31, 28);
-            this.flat_Button1.Name = "flat_Button1";
-            this.flat_Button1.Size = new System.Drawing.Size(100, 33);
-            this.flat_Button1.TabIndex = 11;
-            this.flat_Button1.Text = "Tìm Kiếm";
-            this.flat_Button1.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.flat_Button1.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.flat_Button1.TextColorClick = System.Drawing.Color.Empty;
-            this.flat_Button1.TextColorHover = System.Drawing.Color.Empty;
-            this.flat_Button1.TextColorNormal = System.Drawing.Color.Black;
-            this.flat_Button1.UseActive = false;
-            this.flat_Button1.UseBackgroundHoverClick = true;
-            this.flat_Button1.UseIconHoverClick = false;
-            this.flat_Button1.UseLineHoverClick = false;
-            this.flat_Button1.UseTextHoverClick = false;
             // 
             // comtg
             // 
@@ -172,6 +136,43 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Tác Giả";
             // 
+            // flat_Button1
+            // 
+            this.flat_Button1.Active = false;
+            this.flat_Button1.BackColor = System.Drawing.Color.Transparent;
+            this.flat_Button1.BackgroundColorClick = System.Drawing.Color.Yellow;
+            this.flat_Button1.BackgroundColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.flat_Button1.BackgroundColorNormal = System.Drawing.Color.Transparent;
+            this.flat_Button1.IconAlignment = 3;
+            this.flat_Button1.IconClick = null;
+            this.flat_Button1.IconHover = null;
+            this.flat_Button1.IconNormal = null;
+            this.flat_Button1.IconPositions = GUI.ComponentForm.Flat_Button.IconPosition.OnlyText;
+            this.flat_Button1.IconSize = new System.Drawing.Size(0, 0);
+            this.flat_Button1.LineColorClick = System.Drawing.Color.Empty;
+            this.flat_Button1.LineColorHover = System.Drawing.Color.Empty;
+            this.flat_Button1.LineColorNormal = System.Drawing.Color.Green;
+            this.flat_Button1.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
+            this.flat_Button1.LineSize = 0;
+            this.flat_Button1.Location = new System.Drawing.Point(992, 274);
+            this.flat_Button1.Margin = new System.Windows.Forms.Padding(5);
+            this.flat_Button1.MinimumSize = new System.Drawing.Size(31, 28);
+            this.flat_Button1.Name = "flat_Button1";
+            this.flat_Button1.Size = new System.Drawing.Size(100, 33);
+            this.flat_Button1.TabIndex = 11;
+            this.flat_Button1.Text = "Tìm Kiếm";
+            this.flat_Button1.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.flat_Button1.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.flat_Button1.TextColorClick = System.Drawing.Color.Empty;
+            this.flat_Button1.TextColorHover = System.Drawing.Color.Empty;
+            this.flat_Button1.TextColorNormal = System.Drawing.Color.Black;
+            this.flat_Button1.UseActive = false;
+            this.flat_Button1.UseBackgroundHoverClick = true;
+            this.flat_Button1.UseIconHoverClick = false;
+            this.flat_Button1.UseLineHoverClick = false;
+            this.flat_Button1.UseTextHoverClick = false;
+            this.flat_Button1.Click += new System.EventHandler(this.flat_Button1_Click_1);
+            // 
             // UCTimKiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -186,9 +187,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCTimKiem";
             this.Size = new System.Drawing.Size(1096, 588);
+            this.Load += new System.EventHandler(this.UCTimKiem_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
