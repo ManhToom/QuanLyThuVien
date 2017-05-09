@@ -66,7 +66,8 @@ namespace GUI.UC.Tab
             dateLap.Value = DateTime.Today;
             dateHtra.Value = dateLap.Value.AddDays(10);
             txtMDG.Text = maDG;
-            txtSoPMT.Text = QLThuVien.BUSLayer.BUS.xuat_SoPMTnew();
+            txtSoPMT.Enabled = true;
+            //txtSoPMT.Text = QLThuVien.BUSLayer.BUS.xuat_SoPMTnew();
         }
 
         private void txtMTT_KeyDown(object sender, KeyEventArgs e)

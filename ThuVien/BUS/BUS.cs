@@ -394,10 +394,10 @@ namespace QLThuVien.BUSLayer
             return DAO.tkmuontrongngay(a);
         }
 
-        public static string xuat_SoPMTnew()
-        {
-            return DAO.xuat_SoPMTnew();
-        }
+        //public static string xuat_SoPMTnew()
+        //{
+        //    return DAO.xuat_SoPMTnew();
+        //}
 
         public static int themtdcs(int a, string b, string c)
         {

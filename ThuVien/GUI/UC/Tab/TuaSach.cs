@@ -183,20 +183,55 @@ namespace GUI.UC.Tab
         //Them
         private void btnThem_Click(object sender, EventArgs e)
         {
-            
+            clearInput();
+            enableInput();
+            addItemToCbbNXB();
+            btnSua.Enabled = false;
+            btnXoa.Text = "Hủy";
         }
 
         //Sua
         private void btnSua_Click(object sender, EventArgs e)
         {
-
+			addItemToCbbNXB();
+            enableInput();
+            txtMTS.Enabled = false;
+            btnXoa.Text = "Hủy";
+            btnThem.Enabled = false;
            
         }
 
         //Xoa
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            
+            if (btnThem.Active || btnSua.Active)
+            {
+                clearInput();
+                disbleInput();
+                btnXoa.Text = "Xóa";
+                btnXoa.Active = true;
+                btnSua.Enabled = false;
+                btnThem.Enabled = true;
+            }
+            else
+            {
+                btnXoa.Text = "Xóa";
+                btnXoa.Active = true;
+                btnSua.Enabled = false;
+                btnThem.Enabled = true;
+                if (txtMTS.Text != null)
+                {
+                    if (BUS.xoa_TS(txtMTS.Text) > 0)
+                    {
+                        updateDataToDgv();
+                        MessageBox.Show("Xóa thành công");
+                    }
+                    else MessageBox.Show("Không xóa được");
+                }
+                else MessageBox.Show("Không xóa được");
+                clearInput();
+                disbleInput();
+            }
         }
 
         //Xac nhan
@@ -224,12 +259,116 @@ namespace GUI.UC.Tab
 
                 if (btnThem.Active)
                 {
+					ts.Gia1 = int.Parse(txtGia.Text);
+                    //them TS
+                    if (ts.MaNXB == null || ts.MaTS == "") throw new Exception();
 
+                    if (BUS.them_TS(ts) > 0)
+                    {
+                        updateDataToDgv();
+                    }
+                    else throw new Exception();
+
+                    //them TL_TS
+                    if (ChonTL.maTL != null)
+                    {
+                        string[] strTL = ChonTL.maTL.Split(';');
+                        QLThuVien.ValueObject.TS_TL tstl = new QLThuVien.ValueObject.TS_TL();
+                        tstl.MaTS = ts.MaTS;
+                        foreach (string str in strTL)
+                        {
+                            tstl.MaTL = str;
+                            BUS.them_TSTL(tstl);
+                        }
+                    }
+
+                    //them Viet
+                    if (ChonTG.maTG != null)
+                    {
+                        string[] strTG = ChonTG.maTG.Split(';');
+                        QLThuVien.ValueObject.Viet viet = new QLThuVien.ValueObject.Viet();
+                        viet.MaTS = ts.MaTS;
+                        foreach (string str in strTG)
+                        {
+                            viet.MaTG = str;
+                            BUS.them_V(viet);
+                        }
+                    }
+
+                    MessageBox.Show("Thêm thành công");
                 }
                 else if (btnSua.Active)
                 {
+					ts.Gia1 = int.Parse(txtGia.Text.Split('.')[0]);
+                    //sua TS
+                    if (ts.MaNXB == null || ts.MaTS == "") throw new Exception();
 
+                    if (BUS.sua_TS(ts) > 0)
+                    {
+                        updateDataToDgv();
+                    }
+                    else throw new Exception();
+
+                    //sua TLTS
+                    if (ChonTL.maTL != null)
+                    {
+                        string[] strTL = ChonTL.maTL.Split(';');
+                        QLThuVien.ValueObject.TS_TL tstl = new QLThuVien.ValueObject.TS_TL();
+                        tstl.MaTS = ts.MaTS;
+                        foreach (string str in strTL)
+                        {
+                            if (str != "")
+                                if (maTLcu == null || !maTLcu.Contains(str))
+                                {
+                                    tstl.MaTL = str;
+                                    BUS.them_TSTL(tstl);
+                                }
+                        }
+                    }
+                    if (maTLcu != null)
+                    {
+                        string[] strTL = maTLcu.Split(';');
+                        foreach (string str in strTL)
+                        {
+                            if (str != "")
+                                if (ChonTL.maTL == null || !ChonTL.maTL.Contains(str))
+                                {
+                                    BUS.xoa_TSTL(ts.MaTS, str);
+                                }
+                        }
+                    }
+
+                    //sua viet
+                    if (ChonTG.maTG != null)
+                    {
+                        string[] strTG = ChonTG.maTG.Split(';');
+                        QLThuVien.ValueObject.Viet viet = new QLThuVien.ValueObject.Viet();
+                        viet.MaTS = ts.MaTS;
+                        foreach (string str in strTG)
+                        {
+                            if (str != "")
+                                if (maTGcu == null || !maTGcu.Contains(str))
+                                {
+                                    viet.MaTG = str;
+                                    BUS.them_V(viet);
+                                }
+                        }
+                    }
+                    if (maTGcu != null)
+                    {
+                        string[] strTG = maTGcu.Split(';');
+                        foreach (string str in strTG)
+                        {
+                            if (str != "")
+                                if (ChonTG.maTG == null || !ChonTG.maTG.Contains(str))
+                                {
+                                    BUS.xoa_V(ts.MaTS, str);
+                                }
+                        }
+                    }
+                    MessageBox.Show("Sửa thành công");
                 }
+                
             }
             catch
             {
