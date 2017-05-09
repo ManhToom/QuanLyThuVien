@@ -40,9 +40,13 @@
             this.btnSach = new GUI.ComponentForm.Flat_Button();
             this.btnMenu = new GUI.ComponentForm.Flat_Button();
             this.bxForm = new GUI.ComponentForm.BoxFrom();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.domainUse.SuspendLayout();
+            this.pnlUse.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptrHome)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // domainUse
@@ -61,7 +65,9 @@
             // pnlUse
             // 
             this.pnlUse.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlUse.Controls.Add(this.menuStrip1);
             this.pnlUse.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlUse.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.pnlUse.Location = new System.Drawing.Point(200, 0);
             this.pnlUse.Name = "pnlUse";
             this.pnlUse.Size = new System.Drawing.Size(822, 478);
@@ -106,7 +112,7 @@
             this.btnSeach.LineColorNormal = System.Drawing.Color.Green;
             this.btnSeach.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnSeach.LineSize = 0;
-            this.btnSeach.Location = new System.Drawing.Point(0, 218);
+            this.btnSeach.Location = new System.Drawing.Point(4, 177);
             this.btnSeach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSeach.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnSeach.Name = "btnSeach";
@@ -156,7 +162,7 @@
             this.btnThongKe.LineColorNormal = System.Drawing.Color.Green;
             this.btnThongKe.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnThongKe.LineSize = 0;
-            this.btnThongKe.Location = new System.Drawing.Point(1, 422);
+            this.btnThongKe.Location = new System.Drawing.Point(4, 377);
             this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThongKe.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnThongKe.Name = "btnThongKe";
@@ -195,7 +201,7 @@
             this.btnNghiepVu.LineColorNormal = System.Drawing.Color.Green;
             this.btnNghiepVu.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnNghiepVu.LineSize = 0;
-            this.btnNghiepVu.Location = new System.Drawing.Point(0, 371);
+            this.btnNghiepVu.Location = new System.Drawing.Point(0, 326);
             this.btnNghiepVu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNghiepVu.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnNghiepVu.Name = "btnNghiepVu";
@@ -234,7 +240,7 @@
             this.btnMuonTra.LineColorNormal = System.Drawing.Color.Green;
             this.btnMuonTra.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnMuonTra.LineSize = 0;
-            this.btnMuonTra.Location = new System.Drawing.Point(0, 320);
+            this.btnMuonTra.Location = new System.Drawing.Point(4, 275);
             this.btnMuonTra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMuonTra.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnMuonTra.Name = "btnMuonTra";
@@ -273,7 +279,7 @@
             this.btnSach.LineColorNormal = System.Drawing.Color.Green;
             this.btnSach.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnSach.LineSize = 0;
-            this.btnSach.Location = new System.Drawing.Point(0, 269);
+            this.btnSach.Location = new System.Drawing.Point(1, 224);
             this.btnSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSach.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnSach.Name = "btnSach";
@@ -312,7 +318,7 @@
             this.btnMenu.LineColorNormal = System.Drawing.Color.Green;
             this.btnMenu.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.None;
             this.btnMenu.LineSize = 0;
-            this.btnMenu.Location = new System.Drawing.Point(1, 167);
+            this.btnMenu.Location = new System.Drawing.Point(1, 126);
             this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenu.MinimumSize = new System.Drawing.Size(23, 23);
             this.btnMenu.Name = "btnMenu";
@@ -343,6 +349,25 @@
             this.bxForm.TabIndex = 0;
             this.bxForm.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(822, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.helpToolStripMenuItem.Text = "Help(F1)";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -351,6 +376,7 @@
             this.ClientSize = new System.Drawing.Size(1024, 480);
             this.Controls.Add(this.domainUse);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(1024, 480);
             this.Name = "FormMain";
             this.ShowIcon = false;
@@ -358,8 +384,12 @@
             this.Text = "FormMain";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.domainUse.ResumeLayout(false);
+            this.pnlUse.ResumeLayout(false);
+            this.pnlUse.PerformLayout();
             this.pnlMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ptrHome)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -377,5 +407,7 @@
         private System.Windows.Forms.PictureBox ptrHome;
         private ComponentForm.Flat_Button btnSeach;
         private System.Windows.Forms.Panel pnlUse;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
     }
 }
