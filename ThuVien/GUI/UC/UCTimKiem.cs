@@ -29,8 +29,9 @@ namespace GUI.UC
             comtg.DataSource = b;
             comtg.DisplayMember = "Tên TG";
             comtg.ValueMember = "Mã TG";
-            comtl.Text = "";
             comtg.Text = "";
+            comtl.Text = "";
+            
         }
         private void loaddgv()
         {
@@ -66,6 +67,14 @@ namespace GUI.UC
             loaddgv();
         }
 
-       
+        private void UCTimKiem_Load_1(object sender, EventArgs e)
+        {
+            load();
+        }
+
+        private void flat_Button1_Click_1(object sender, EventArgs e)
+        {
+            loaddgv();
+        }
     }
 }
